@@ -95,7 +95,13 @@
         .prev:hover, .next:hover {
             background-color: rgba(0,0,0,0.6);
         }
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
 
+       
         /* Responsive design for mobile devices */
         @media screen and (max-width: 768px) {
             h1 {
@@ -118,12 +124,15 @@
             .slideshow-container {
                 max-width: 90%;
             }
+            .responsive-img {
+                max-width: 80%; 
+            }
         }
     </style>
 </head>
 <body>
     <h1>CHARITY & FUNDRAISING WEBSITE</h1>
-     <p><img src="marquee1.jpg"></p>
+    <p><img src="marquee1.jpg" class="responsive-img"></p>
     <h2>Our mission is to make the world a better place through kindness and support.</h2>
     <h3>At our CHARITY & FUNDRAISING WEBSITE, we are dedicated to improving the lives of underprivileged children by providing access to quality education and healthcare. Our mission is to empower communities and create a brighter future for the next generation.</h3>
 
